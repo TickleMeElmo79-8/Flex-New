@@ -1,0 +1,610 @@
+.header2 {
+	color:#1c2333;
+font-family:Verdana;
+font-weight: bolder;
+font-size:60px;
+	text-shadow: 0 0 5px #04ff9b, 0 0 10px #04ff9b, 0 0 15px #04ff9b, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(62,255,87,0);
+transform:translateX(750px) translateY(200px);
+}
+.flooder {
+transform:translateX(10px) translateY(10px);
+	-webkit-box-shadow: 5px 5px 15px 5px #33c659; 
+box-shadow: 5px 5px 15px 5px #33c659;
+	border-color:#33c6590;
+	border-width:0px;
+}
+.header {
+transform:translateX(200px) translateY(-20px);
+color:#1c2333;
+font-family:Verdana;
+font-weight: bolder;
+font-size:80px;
+	text-shadow: 0 0 5px #04ff9b, 0 0 10px #04ff9b, 0 0 15px #04ff9b, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(62,255,87,0);
+}
+/*Script Storage*/
+.Input {
+display:none;
+}
+/*Alert Box */
+.alert-box {
+	transform:translateY(-100); 
+}
+.alert-content {
+border:3px;
+border-style:solid;
+border-radius:20px;
+border-color:#33c759; 
+padding: 1em;
+background-color:#1c2333;
+font-family:Verdana;
+font-size:150%;
+color:#33c759
+}
+.logo-corner {
+transform: translateX(-21px) translateY(-200px);
+border-color:#33c6590;
+}
+body {
+background-color:#1c2333
+}
+.bbutton{
+	transform:translateY(30px);
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+}
+.bbutton:hover{
+	transform:translateY(30px);
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+}
+.bbutton2{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton2:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton3{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton3:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton4{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton4:hover{
+margin:auto;
+width:50%;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton5{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton5:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton6{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+color:#1c2333;
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton6:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.bbutton7{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton7:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton9{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton9:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton9{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton9:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton10{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton10:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton11 {
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton11:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton12{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton12:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton13{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton13:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton14{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton14:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton15{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton15:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+}
+.bbutton16{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton16:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+transform:translateY(30px);
+}
+.bbutton17{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.bbutton17:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.bbutton18{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+color:#1c2333;
+font-family:Verdana;
+background-color:#33c659;
+border-radius:10px;
+	transform:translateY(30px);
+}
+.bbutton18:hover{
+margin:auto;
+width:50%;
+border-width:0px;
+font-weight:bolder;
+font-size:20px;
+color:#1c2333;
+font-family:Verdana;
+background-color:#16c659;
+border-radius:10px;
+transform:translateY(30px);
+	-webkit-box-shadow: inset -1px 3px 8px 5px #33de59, 2px 5px 16px 0px #2fa652, inset 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #30af53, 2px 5px 16px 0px #246041, inset 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.button {
+transform:translateY(-60px);
+}
+.main {
+transform:translateY(-500px);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.rainbow-text-loop {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-animation: rainbow 10s infinite; 
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+

@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap);body{font-family: quicksand;background-color:black;text-align:center;}h1{color:#fafafa;font-weight:500;font-size:50px;text-align:center;margin-top:90px;}input{font-family: quicksand;display:inline-block;width: 30%;border: 0px solid #aeaeb5;border-radius: 4px;margin-top: 20px; font-size: 20px;background-color:white;background-position: 10px 10px; background-repeat: no-repeat;padding: 20px 28px 20px 20px;box-shadow: 0 5px 15px 1px #b6bbc0;transition:border linear 0.09s;}input:hover {outline:none;border: 2px solid #620082;}input:focus{outline:none;}::placeholder {color: #B1B1B1;  padding-left:5px;}h2{color:#fafafa;font-weight:500;font-size:20px;text-align:center;}h3{color:#fafafa;font-weight:500;font-size:20px;text-align:center;}h4{color:#fafafa;font-weight:500;font-size:20px;text-align:center;}p{color:#fafafa;font-weight:500;font-size:20px;text-align:center;}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: 50% 50%;
+  background-clip: border-box;
+  background-size: 50% 50%;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.rainbow-text-loop {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-animation: rainbow 10s infinite; 
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.flooder {
+transform:translateX(-25px) translateY(100px);
+	-webkit-box-shadow: 5px 5px 15px 5px #33c659; 
+box-shadow: 5px 5px 15px 5px #33c659;
+	border-color:#33c6590;
+	border-width:0px;
+}
+
+
+
+.alert4 {
+  padding: 20px;
+  background-color: #d30c00; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.alert5 {
+  padding: 20px;
+  background-color: #ff9800; /* ORANGE */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
